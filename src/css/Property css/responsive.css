@@ -1,0 +1,145 @@
+@media (max-width: 1200px) {
+  .list ul li {
+    margin-left: 40px !important;
+  }
+  .recent-properties .row {
+    grid-template-columns: auto auto !important;
+    grid-gap: 110px 20px !important;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .responsive_only {
+    display: block !important;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1122px) {
+  .list ul li {
+    padding: 1px !important;
+  }
+}
+
+@media (max-width: 1094px) {
+  .open-slide {
+    display: block !important;
+  }
+  .list {
+    display: none;
+  }
+  #login {
+    display: none !important;
+  }
+}
+
+@media (max-width: 950px) {
+  .list ul li {
+    margin-left: 25px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 90vh !important;
+  }
+  .footer_top {
+    display: initial !important;
+  }
+  .footer_logo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_logo span p {
+    text-align: center;
+    margin-top: 70px;
+    padding-left: 70px;
+  }
+  .footer_middle {
+    display: initial !important;
+  }
+  .list_media ul li a {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .list_navbar ul {
+    margin-left: 50px;
+  }
+  .footer_address {
+    max-width: 480px !important;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .footer_location:before {
+    position: relative !important;
+  }
+  .footer_number:before {
+    position: relative !important;
+  }
+  .footer_sales:before {
+    position: relative !important;
+  }
+  .footer_newsletter h2 {
+    text-align: center;
+  }
+  .footer_newsletter input {
+    margin-left: 10%;
+  }
+  .footer_newsletter .button_one {
+    margin-left: 33%;
+  }
+}
+
+@media (max-width: 853px) {
+  .search-header h2:after {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .recent-properties .row {
+    display: initial !important;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .recent-properties .row .col-md-3 {
+    padding: 20px;
+  }
+}
+@media (max-width: 440px) {
+  .recent-properties {
+    margin-top: 100px !important;
+  }
+  .latest_properties h2 {
+    font-size: 20px !important;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .side_nav-logo {
+    padding-left: 30% !important;
+  }
+  .list_navbar ul {
+    display: none !important;
+  }
+  .list_media ul {
+    display: none;
+  }
+  .footer_newsletter .email_address {
+    width: 80% !important;
+    min-width: 80% !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .latest_properties h2 {
+    font-size: 12px !important;
+  }
+  .view_all {
+    font-size: 12px;
+  }
+}

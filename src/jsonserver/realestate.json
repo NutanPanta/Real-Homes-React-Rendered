@@ -1,0 +1,324 @@
+{
+  "Rent_houses": [
+    {
+      "id": 1,
+      "title": "204 Mount Olive Road Two",
+      "image": "1.jpg",
+      "path": "/mountOlive",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300",
+      "area_unit": "sq ft",
+      "price": "$12,000"
+    },
+    {
+      "id": 2,
+      "title": "204 Rino Venda Road Five",
+      "image": "2.jpg",
+      "path": "/rinoVenda",
+      "description": "Luxury Apartment available in an ideal location, with city and ocean views,…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300",
+      "area_unit": "sq ft",
+      "price": "$13,000"
+    },
+    {
+      "id": 3,
+      "title": "204 Alira Roan Road One",
+      "image": "3.jpg",
+      "path": "/aliraRoan",
+      "description": "A decent 2 bedrooms condo available on rent on an ideal location.…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300",
+      "area_unit": "sq ft",
+      "price": "$14,000"
+    },
+    {
+      "id": 4,
+      "title": "204 North Central Home",
+      "image": "4.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300",
+      "area_unit": "sq ft",
+      "price": "$15,000"
+    },
+    {
+      "id": 5,
+      "title": "204 Montal South Bela Two",
+      "image": "5.jpg",
+      "path": "/rinoVenda",
+      "description": "Luxury Apartment available in an ideal location, with city and ocean views,…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300",
+      "area_unit": "sq ft",
+      "price": "$16,000"
+    },
+    {
+      "id": 6,
+      "title": "Condo on Biscayne Boulevard",
+      "image": "6.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300",
+      "area_unit": "sq ft",
+      "price": "$15,000"
+    },
+    {
+      "id": 7,
+      "title": "Luxury Apartment",
+      "image": "7.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedronom": 3,
+      "bathroom": 3,
+      "area": "4300",
+      "area_unit": "sq ft",
+      "price": "$11,000"
+    },
+    {
+      "id": 8,
+      "title": "204 Montal South Bela Two",
+      "image": "8.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300",
+      "area_unit": "sq ft",
+      "price": "$7,000"
+    },
+    {
+      "id": 9,
+      "title": "Home in Coral Gables",
+      "image": "9.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300",
+      "area_unit": "sq ft",
+      "price": "$3,750"
+    },
+    {
+      "id": 10,
+      "title": "Villa on Grand Avenue",
+      "image": "3.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300",
+      "area_unit": "sq ft",
+      "price": "$4,560"
+    }
+  ],
+  "Buy_houses": [
+    {
+      "id": 1,
+      "title": "Home in Merrick Way",
+      "image": "property-01.jpg",
+      "path": "/merrick",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300 sq ft",
+      "price": "$540,000"
+    },
+    {
+      "id": 2,
+      "title": "Villa in Coral Gables",
+      "image": "property-02.jpg",
+      "path": "/coralGables",
+      "description": "Enjoy serenity of Deering Bay whole day from this spectacular North and…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300 sq ft",
+      "price": "$540,000"
+    },
+    {
+      "id": 3,
+      "title": "Villa on Hollywood Boulevard",
+      "image": "property-03.jpg",
+      "path": "/HollywoodBoulevard",
+      "description": "A decent 2 bedrooms condo available on rent on an ideal location.…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300 sq ft",
+      "price": "$540,000"
+    },
+    {
+      "id": 4,
+      "title": "Traditional Food Restaurant",
+      "image": "property-04(extra).jpg",
+      "path": "/traditionalRestaurant",
+      "description": "We are an award winning and very unique concept inspired by street…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300 sq ft",
+      "price": "$540,000"
+    },
+    {
+      "id": 5,
+      "title": "245 Azabu Nishi Park let",
+      "image": "3.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300 sq ft",
+      "price": "$540,000"
+    },
+    {
+      "id": 6,
+      "title": "Home in Faraday Way",
+      "image": "3.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300 sq ft",
+      "price": "$540,000"
+    },
+    {
+      "id": 7,
+      "title": "157 West Central Park",
+      "image": "3.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedronom": 3,
+      "bathroom": 3,
+      "area": "4300 sq ft",
+      "price": "$540,000"
+    },
+    {
+      "id": 8,
+      "title": "Home in Central Arizona",
+      "image": "3.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300 sq ft",
+      "price": "$540,000"
+    },
+    {
+      "id": 9,
+      "title": "Home in boulevard Way",
+      "image": "3.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300 sq ft",
+      "price": "$540,000"
+    },
+    {
+      "id": 10,
+      "title": "Home in Coral Gables",
+      "image": "3.jpg",
+      "path": "/rinoVenda",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath…",
+      "bedroom": 3,
+      "bathroom": 3,
+      "area": "4300 sq ft",
+      "price": "$4,560"
+    }
+  ],
+  "agent": [
+    {
+      "id": 1,
+      "image": "agent-1.jpg",
+      "name": "Margaret Sotillo Escala",
+      "description": "She is one of the best agent of our website.",
+      "phone": "+54 356 945234",
+      "email": "Margaret@example.com"
+    },
+    {
+      "id": 2,
+      "image": "agent-2.jpg",
+      "name": "Stiven Spilver Darw",
+      "description": "He is one of the best agent of our website.",
+      "phone": "+54 356 945234",
+      "email": "Stiven@example.com"
+    },
+    {
+      "id": 3,
+      "image": "agent-3.jpg",
+      "name": "Emma Toledo Cascada",
+      "description": "She is one of the best agent of our website",
+      "phone": "+54 356 945234",
+      "email": "Emma@example.com"
+    }
+  ],
+  "Faq": [
+    {
+      "id": 1,
+      "question": "breathtaking architecture designed",
+      "answer": "We help you find the best architecture designed building. "
+    },
+    {
+      "id": 2,
+      "question": "We are always there for you",
+      "answer": "We give you the best support as poosible form our team."
+    },
+    {
+      "id": 3,
+      "question": "Everything To Know About Our Website",
+      "answer": "Our website was formed in 2018"
+    }
+  ],
+  "Blog": [
+    {
+      "id": 1,
+      "image": "property-01.jpg",
+      "title": "Merrick Way",
+      "description": "Enchanting three bedroom, three bath home with spacious one bedroom, one bath cabana, in-laws quarters. Charming living area features fireplace and fabulous art deco details. Formal dining room. Remodeled kitchen with granite countertops, white cabinetry and stainless appliances. Lovely master bedroom has updated bath, beautiful view of the pool. Guest bedrooms have walk-in, cedar closets. Delightful backyard; majestic oaks surround the free form pool and expansive patio, wet bar and grill."
+    },
+    {
+      "id": 2,
+      "image": "property-02.jpg",
+      "title": "Coral Gables",
+      "description": "Enjoy serenity of Deering Bay whole day from this spectacular North and South, three bedroom, three and a half bath Milano unit with 10ft ceilings which provide light and airy views of the golf course and pool. Oversized open balconies provide luxurious entertainment spaces. Spacious flow-through floor plan with lavish master bedroom suite with his and her walk-in closets, gourmet cook’s kitchen with granite counters and top of the line Thermador and Sub Zero appliances."
+    },
+    {
+      "id": 3,
+      "image": "property-03.jpg",
+      "title": "Hollywoord Boulevard",
+      "description": "The very best waterfront location in Harbor Islands complete with private dock and amazing water frontage! Offering panoramic water views, this spacious home has volume ceilings and offers a rarely available ground floor master bedroom suite. The modern kitchen has been completely updated, leading to entertainment and family rooms that open to fabulous back yard and swimming pool overlooking the waterways. Must be seen!"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": 1,
+      "name": "Pablo & Emma",
+      "image": "testimonial-1.jpg",
+      "mini_image": "mini-testimonial-1.jpg",
+      "comment": "Were very pleased with the house we got from Real Homes"
+    },
+    {
+      "id": 2,
+      "name": "Patson & Angelina",
+      "image": "testimonial-2.jpg",
+      "mini_image": "mini-testimonial-2.jpg",
+      "comment": "Were very pleased with the house we got from Real Homes"
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "name": "Ashish",
+      "email": "aashish@gmail.com",
+      "phone": "9861444690",
+      "massage": "All the products on the site are genuine and I am very happy with the service. "
+    }
+  ]
+}
