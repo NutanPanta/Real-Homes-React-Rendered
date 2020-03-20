@@ -141,7 +141,7 @@ export default class Header extends Component {
               <ul>
                 <li>
                   <Link to="/" className="active-nav">
-                    Hello
+                    Home
                   </Link>
                 </li>
                 <li>
