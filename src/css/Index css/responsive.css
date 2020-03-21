@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+  .list{
+    background-color: #fff;
+  }
   .list ul li {
     margin-left: 40px !important;
   }
