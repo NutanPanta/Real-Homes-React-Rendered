@@ -11,7 +11,7 @@ export default class BestAgents extends Component {
   }
   componentDidMount() {
     axios
-      .get(" http://localhost:8000/Agent")
+      .get("../../jsonserver/realestate.json")
       .then(response => {
         return response.data;
       })
