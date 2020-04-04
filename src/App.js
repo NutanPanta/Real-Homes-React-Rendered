@@ -7,12 +7,11 @@ import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Footer from "../src/components/Footer";
 import PropertySingle from "./pages/PropertySingle";
-import  "./jsonserver/realestate.json";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter>      
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />

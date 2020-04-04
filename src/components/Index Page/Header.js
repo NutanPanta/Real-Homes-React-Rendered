@@ -53,42 +53,42 @@ export default class Header extends Component {
     document.getElementById("register").style.display = "block";
     document.getElementById("login-background").style.display = "none";
   }
-  state = {
-    search: ""
-  };
+  // state = {
+  //   search: ""
+  // };
 
-  onChange = event => {
-    this.setState({ search: event.target.value });
-  };
+  // onChange = event => {
+  //   this.setState({ search: event.target.value });
+  // };
 
-  onSearch = () => {
-    axios
-      .get(`http://localhost:8000/${this.state.search}`)
-      .then(response => {
-        let data = response.data;
-        console.log(data);
-        let forma = document.querySelector("#forma");
-        let html = "";
-        data.forEach(element => {
-          html += `
-                    <div>
-                     <img src="images/${element.image}"/>
-                     <h1>${element.title}</h1>
-                     <h1>${element.description}</h1>
-                    </div>
-                    `;
-        });
-        forma.innerHTML = html;
-      })
-      .catch(error => {
-        let forma = document.querySelector("#forma");
-        let html = "";
-        html += `
-                <h1>The ${this.state.search} was not found. </h1>
-                `;
-        forma.innerHTML = html;
-      });
-  };
+  // onSearch = () => {
+  //   axios
+  //     .get(`http://localhost:8000/${this.state.search}`)
+  //     .then(response => {
+  //       let data = response.data;
+  //       console.log(data);
+  //       let forma = document.querySelector("#forma");
+  //       let html = "";
+  //       data.forEach(element => {
+  //         html += `
+  //                   <div>
+  //                    <img src="images/${element.image}"/>
+  //                    <h1>${element.title}</h1>
+  //                    <h1>${element.description}</h1>
+  //                   </div>
+  //                   `;
+  //       });
+  //       forma.innerHTML = html;
+  //     })
+  //     .catch(error => {
+  //       let forma = document.querySelector("#forma");
+  //       let html = "";
+  //       html += `
+  //               <h1>The ${this.state.search} was not found. </h1>
+  //               `;
+  //       forma.innerHTML = html;
+  //     });
+  // };
 
   // Form Values //
   onChangeusername(e) {
