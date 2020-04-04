@@ -100,7 +100,9 @@ export default class Footer extends Component {
               >
                 <input
                   className="email_address"
-                  type="email"
+                  type="hidden"
+                  name="form-name"
+                  value="contact"
                   name="Email"
                   placeholder="Your email address"
                   required=""
