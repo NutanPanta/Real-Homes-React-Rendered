@@ -37,6 +37,7 @@ export default class ContactUs extends Component {
       <section className="contact">
         <div className="container">
           <form
+            id="contact_us"
             className="contact_us"
             name="Contact"
             method="POST"

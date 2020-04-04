@@ -1,24 +1,23 @@
 // nav ko scroll ko lago js start
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(this).scrollTop() > 50) {
     $("nav").addClass("scrolltop");
+    $(".side_nav-list").removeClass("scrolltop");
   } else {
     $("nav").removeClass("scrolltop");
   }
 });
 // nav ko scroll ko lago js end
 
-
-
 // login ko lagi js start
 $("login-background").show();
-$(".login-icon").click(function() {
+$(".login-icon").click(function () {
   $("#login-background").toggle();
 });
 
 // responsive nav login start
 // $("side_nav-login-background ").show();
-$(".side_nav-login").click(function() {
+$(".side_nav-login").click(function () {
   $("#side_nav-login-background ").toggle();
 });
 // responsive nav login end
@@ -64,7 +63,7 @@ function Register() {
   return toReturn;
 }
 
-form.addEventListener("submit", e => {
+form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   if (Register()) {
@@ -72,7 +71,7 @@ form.addEventListener("submit", e => {
       username: username.value,
       email: email.value,
       password: password.value,
-      repassword: repassword.value
+      repassword: repassword.value,
     };
     formData.push(data);
     localStorage.setItem("RegisterData", JSON.stringify(formData));
@@ -97,7 +96,7 @@ function closeSlideSearch() {
 // search ko lagi js end
 
 // owl carousel js start
-$(document).ready(function() {
+$(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     loop: true,
     margin: 10,
@@ -109,9 +108,17 @@ $(document).ready(function() {
     animateOut: "fadeOut",
     responsive: {
       0: {
-        items: 1
-      }
-    }
+        items: 1,
+      },
+    },
   });
 });
 // owl carousel js end
+$("#contact_us").submit(function (e) {
+  e.preventDefault();
+
+  var $form = $(this);
+  $.post($form.attr("action"), $form.serialize()).then(function () {
+    alert("Thank you!");
+  });
+});
