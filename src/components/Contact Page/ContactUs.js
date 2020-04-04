@@ -1,42 +1,50 @@
 import React, { Component } from "react";
-import axios from "axios";
+// import axios from "axios";
 import { Link } from "react-router-dom";
 
 export default class ContactUs extends Component {
-  constructor(props) {
-    super(props);
+  // constructor(props) {
+  //   super(props);
 
-    this.state = {
-      name: "",
-      email: "",
-      phone: "",
-      message: ""
-    };
-  }
+  //   this.state = {
+  //     name: "",
+  //     email: "",
+  //     phone: "",
+  //     message: "",
+  //   };
+  // }
 
-  changeHandler = e => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
+  // changeHandler = (e) => {
+  //   this.setState({ [e.target.name]: e.target.value });
+  // };
 
-  submitHandler = e => {
-    console.log(this.state);
-    e.preventDefault();
-    console.log(this.state);
-    axios
-      .post("http://localhost:8000/contact", this.state)
-      .then(response => {
-        console.log(response);
-      })
-      .catch(error => {
-        console.log(error);
-      });
-  };
+  // submitHandler = (e) => {
+  //   console.log(this.state);
+  //   e.preventDefault();
+  //   console.log(this.state);
+  //   axios
+  //     .post("http://localhost:8000/contact", this.state)
+  //     .then((response) => {
+  //       console.log(response);
+  //     })
+  //     .catch((error) => {
+  //       console.log(error);
+  //     });
+  // };
   render() {
-    const { name, email, phone, message } = this.state;
+    // const { name, email, phone, message } = this.state;
     return (
       <section className="contact">
         <div className="container">
-          <form className="contact_us" onSubmit={this.submitHandler}>
+          <form
+            className="contact_us"
+            name="Contact"
+            method="POST"
+            data-netlify="true"
+            type="file"
+            netlify-honeypot="bot-field"
+            netlify
+          >
             <div className="contact-input">
               <p className="Contact-input_area">
                 <label for="name">Name</label>
@@ -48,9 +56,9 @@ export default class ContactUs extends Component {
                   aria-required="true"
                   autoComplete="off"
                   autoFocus=""
-                  name="name"
-                  value={name}
-                  onChange={this.changeHandler}
+                  // name="name"
+                  // value={name}
+                  // onChange={this.changeHandler}
                 />
               </p>
               <p className="Contact-input_area">
@@ -63,9 +71,9 @@ export default class ContactUs extends Component {
                   aria-required="true"
                   autoComplete="off"
                   autoFocus=""
-                  name="email"
-                  value={email}
-                  onChange={this.changeHandler}
+                  // name="email"
+                  // value={email}
+                  // onChange={this.changeHandler}
                 />
               </p>
               <p className="Contact-input_area">
@@ -78,9 +86,9 @@ export default class ContactUs extends Component {
                   aria-required="true"
                   autoComplete="off"
                   autoFocus=""
-                  name="phone"
-                  value={phone}
-                  onChange={this.changeHandler}
+                  // name="phone"
+                  // value={phone}
+                  // onChange={this.changeHandler}
                 />
               </p>
               <p className="Contact-input_textarea">
@@ -94,9 +102,9 @@ export default class ContactUs extends Component {
                   aria-required="true"
                   autoComplete="off"
                   autoFocus=""
-                  name="message"
-                  value={message}
-                  onChange={this.changeHandler}
+                  // name="message"
+                  // value={message}
+                  // onChange={this.changeHandler}
                 ></textarea>
               </p>
               <div className="send_message">

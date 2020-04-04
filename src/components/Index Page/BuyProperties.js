@@ -1,105 +1,105 @@
 import React, { Component } from "react";
-import axios from "axios";
+// import axios from "axios";
 import { Link } from "react-router-dom";
 
 export default class BuyProperties extends Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       Buy_houses: []
-//     };
-//   }
-//   componentDidMount() {
-//     axios
-//       .get(" http://localhost:8000/Buy_houses")
-//       .then(response => {
-//         return response.data;
-//       })
-//       .then(data => {
-//         console.log(data);
-//         this.setState({
-//           Buy_houses: data.slice(0, 3)
-//         });
-//       });
-//   }
-//   render() {
-//     const Buy_houses = this.state.Buy_houses;
-//     const Buy_houseslist = Buy_houses.length ? (
-//       <>
-//         {Buy_houses.map(Buy_houses => (
-//           <div className="col-md-3" key={Math.random()}>
-//             <div className="card-properties">
-//               <div className="card-image">
-//                 <img src={"img/" + Buy_houses.image} alt="..." />
-//                 <div className="card-image_hover">
-//                   <Link className="animated fadeInUp" to={Buy_houses.path}>
-//                     View Property
-//                   </Link>
-//                 </div>
-//               </div>
-//               <div className="properties-detail">
-//                 <h3>{Buy_houses.title}</h3>
-//                 <p>{Buy_houses.description}</p>
-//                 <div className="properties-room">
-//                   <span className="bedroom">
-//                     Bedroom
-//                     <br />
-//                     <i class="fas fa-bed" style={{ width: "35px" }}></i>
-//                     {Buy_houses.bedroom}
-//                   </span>
-//                   <span className="bathroom">
-//                     Bathroom
-//                     <br />
-//                     <i class="fas fa-shower" style={{ width: "35px" }}></i>
-//                     {Buy_houses.bathroom}
-//                   </span>
-//                   <span className="area">
-//                     Area
-//                     <br />
-//                     <i class="fas fa-layer-group" style={{ width: "35px" }}></i>
-//                     {Buy_houses.area}
-//                     <span className="properties-unit">
-//                       {Buy_houses.area_unit}
-//                     </span>
-//                   </span>
-//                 </div>
-//                 <div className="properties-price">
-//                   For Buy
-//                   <br />
-//                   <span>{Buy_houses.price}</span>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         ))}
-//       </>
-//     ) : (
-//       <div className="center">No Post to Display</div>
-//     );
-//     return (
-//       <section className="recent-properties">
-//         <div className="container">
-//           <h6 className="rp-subtitle">Recent</h6>
-//           <h1 className="rp-title">Properties</h1>
-//           <p className="rp-description">
-//             Check out some of our latest properties to Buy.
-//           </p>
-//           <div className="go_property">
-//             <div className="latest_properties">
-//               <h2>Latest Properties</h2>
-//             </div>
-//             <div className="view_property">
-//               <span className="view_all">
-//                 <Link to="/property">All Property></Link>
-//               </span>
-//             </div>
-//           </div>
-//           <div className="row">{Buy_houseslist}</div>
-//         </div>
-//       </section>
-//     );
-//   }
-// }
+  //   constructor(props) {
+  //     super(props);
+  //     this.state = {
+  //       Buy_houses: []
+  //     };
+  //   }
+  //   componentDidMount() {
+  //     axios
+  //       .get(" http://localhost:8000/Buy_houses")
+  //       .then(response => {
+  //         return response.data;
+  //       })
+  //       .then(data => {
+  //         console.log(data);
+  //         this.setState({
+  //           Buy_houses: data.slice(0, 3)
+  //         });
+  //       });
+  //   }
+  //   render() {
+  //     const Buy_houses = this.state.Buy_houses;
+  //     const Buy_houseslist = Buy_houses.length ? (
+  //       <>
+  //         {Buy_houses.map(Buy_houses => (
+  //           <div className="col-md-3" key={Math.random()}>
+  //             <div className="card-properties">
+  //               <div className="card-image">
+  //                 <img src={"img/" + Buy_houses.image} alt="..." />
+  //                 <div className="card-image_hover">
+  //                   <Link className="animated fadeInUp" to={Buy_houses.path}>
+  //                     View Property
+  //                   </Link>
+  //                 </div>
+  //               </div>
+  //               <div className="properties-detail">
+  //                 <h3>{Buy_houses.title}</h3>
+  //                 <p>{Buy_houses.description}</p>
+  //                 <div className="properties-room">
+  //                   <span className="bedroom">
+  //                     Bedroom
+  //                     <br />
+  //                     <i class="fas fa-bed" style={{ width: "35px" }}></i>
+  //                     {Buy_houses.bedroom}
+  //                   </span>
+  //                   <span className="bathroom">
+  //                     Bathroom
+  //                     <br />
+  //                     <i class="fas fa-shower" style={{ width: "35px" }}></i>
+  //                     {Buy_houses.bathroom}
+  //                   </span>
+  //                   <span className="area">
+  //                     Area
+  //                     <br />
+  //                     <i class="fas fa-layer-group" style={{ width: "35px" }}></i>
+  //                     {Buy_houses.area}
+  //                     <span className="properties-unit">
+  //                       {Buy_houses.area_unit}
+  //                     </span>
+  //                   </span>
+  //                 </div>
+  //                 <div className="properties-price">
+  //                   For Buy
+  //                   <br />
+  //                   <span>{Buy_houses.price}</span>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           </div>
+  //         ))}
+  //       </>
+  //     ) : (
+  //       <div className="center">No Post to Display</div>
+  //     );
+  //     return (
+  //       <section className="recent-properties">
+  //         <div className="container">
+  //           <h6 className="rp-subtitle">Recent</h6>
+  //           <h1 className="rp-title">Properties</h1>
+  //           <p className="rp-description">
+  //             Check out some of our latest properties to Buy.
+  //           </p>
+  //           <div className="go_property">
+  //             <div className="latest_properties">
+  //               <h2>Latest Properties</h2>
+  //             </div>
+  //             <div className="view_property">
+  //               <span className="view_all">
+  //                 <Link to="/property">All Property></Link>
+  //               </span>
+  //             </div>
+  //           </div>
+  //           <div className="row">{Buy_houseslist}</div>
+  //         </div>
+  //       </section>
+  //     );
+  //   }
+  // }
   render() {
     return (
       <React.Fragment>

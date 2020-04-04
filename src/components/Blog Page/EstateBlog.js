@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import axios from "axios";
+// import axios from "axios";
 import { Link } from "react-router-dom";
 import "../../css/Blogcss/style.css";
 import "../../css/Blogcss/responsive.css";

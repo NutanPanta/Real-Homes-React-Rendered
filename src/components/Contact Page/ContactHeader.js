@@ -1,21 +1,21 @@
 import React, { Component } from "react";
 import "../../css/Contact css/style.css";
 import "../../css/Contact css/responsive.css";
-import axios from "axios";
+// import axios from "axios";
 import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   userData;
   constructor(props) {
     super(props);
-    this.onChangeusername = this.onChangeusername.bind(this);
-    this.onChangePassword = this.onChangePassword.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);
+    // this.onChangeusername = this.onChangeusername.bind(this);
+    // this.onChangePassword = this.onChangePassword.bind(this);
+    // this.onSubmit = this.onSubmit.bind(this);
 
-    this.state = {
-      username: "",
-      password: ""
-    };
+    // this.state = {
+    //   username: "",
+    //   password: "",
+    // };
     this.openSlideMenu = this.openSlideMenu.bind(this);
     this.closeSlideMenu = this.closeSlideMenu.bind(this);
     this.openLogin = this.openLogin.bind(this);
@@ -30,9 +30,6 @@ export default class Header extends Component {
   closeSlideMenu() {
     document.getElementById("side-menu").style.display = "none";
     document.getElementById("logo").style.display = "block";
-  }
-  openRegister() {
-    document.getElementById("forma").style.width = "0";
   }
   openSlideSearch() {
     document.getElementById("forma").style.width = "50%";
@@ -53,76 +50,77 @@ export default class Header extends Component {
   openRegister() {
     document.getElementById("register").style.display = "block";
     document.getElementById("login-background").style.display = "none";
+    document.getElementById("forma").style.width = "0";
   }
-  state = {
-    search: ""
-  };
+  // state = {
+  //   search: ""
+  // };
 
-  onChange = event => {
-    this.setState({ search: event.target.value });
-  };
+  // onChange = event => {
+  //   this.setState({ search: event.target.value });
+  // };
 
-  onSearch = () => {
-    axios
-      .get(`http://localhost:8000/${this.state.search}`)
-      .then(response => {
-        let data = response.data;
-        console.log(data);
-        let forma = document.querySelector("#forma");
-        let html = "";
-        data.forEach(element => {
-          html += `
-                    <div>
-                     <img src="images/${element.image}"/>
-                     <h1>${element.title}</h1>
-                     <h1>${element.description}</h1>
-                    </div>
-                    `;
-        });
-        forma.innerHTML = html;
-      })
-      .catch(error => {
-        let forma = document.querySelector("#forma");
-        let html = "";
-        html += `
-                <h1>The ${this.state.search} was not found. </h1>
-                `;
-        forma.innerHTML = html;
-      });
-  };
+  // onSearch = () => {
+  //   axios
+  //     .get(`http://localhost:8000/${this.state.search}`)
+  //     .then(response => {
+  //       let data = response.data;
+  //       console.log(data);
+  //       let forma = document.querySelector("#forma");
+  //       let html = "";
+  //       data.forEach(element => {
+  //         html += `
+  //                   <div>
+  //                    <img src="images/${element.image}"/>
+  //                    <h1>${element.title}</h1>
+  //                    <h1>${element.description}</h1>
+  //                   </div>
+  //                   `;
+  //       });
+  //       forma.innerHTML = html;
+  //     })
+  //     .catch(error => {
+  //       let forma = document.querySelector("#forma");
+  //       let html = "";
+  //       html += `
+  //               <h1>The ${this.state.search} was not found. </h1>
+  //               `;
+  //       forma.innerHTML = html;
+  //     });
+  // };
 
-  // Form Values //
-  onChangeusername(e) {
-    this.setState({ username: e.target.value });
-  }
-  onChangePassword(e) {
-    this.setState({ password: e.target.value });
-  }
+  // // Form Values //
+  // onChangeusername(e) {
+  //   this.setState({ username: e.target.value });
+  // }
+  // onChangePassword(e) {
+  //   this.setState({ password: e.target.value });
+  // }
 
-  // React lifeCycle //
-  compoundDidMount() {
-    this.userDate = JSON.parse(localStorage.getItem("LoginData"));
+  // // React lifeCycle //
+  // compoundDidMount() {
+  //   this.userDate = JSON.parse(localStorage.getItem("LoginData"));
 
-    if (localStorage.getItem("LoginData")) {
-      this.setState({
-        username: this.userData.username,
-        password: this.userData.password
-      });
-    } else {
-      this.setState({
-        username: "",
-        password: ""
-      });
-    }
-  }
-  componentWillUpdate(nextProps, nextState) {
-    localStorage.setItem("LoginData", JSON.stringify(nextState));
-  }
+  //   if (localStorage.getItem("LoginData")) {
+  //     this.setState({
+  //       username: this.userData.username,
+  //       password: this.userData.password
+  //     });
+  //   } else {
+  //     this.setState({
+  //       username: "",
+  //       password: ""
+  //     });
+  //   }
+  // }
+  // componentWillUpdate(nextProps, nextState) {
+  //   localStorage.setItem("LoginData", JSON.stringify(nextState));
+  // }
 
-  onSubmit(e) {
-    e.preventDefault();
-    console.log(this.state.props);
-  }
+  // onSubmit(e) {
+  //   e.preventDefault();
+  //   console.log(this.state.props);
+  // }
   render() {
     return (
       <header className="contactheader">
@@ -184,15 +182,15 @@ export default class Header extends Component {
                       type="text"
                       placeholder="Username"
                       required=""
-                      value={this.state.username}
-                      onChange={this.onChangeusername}
+                      // value={this.state.username}
+                      // onChange={this.onChangeusername}
                     />
                     <input
                       type="password"
                       placeholder="Password"
                       required=""
-                      value={this.state.password}
-                      onChange={this.onChangePassword}
+                      // value={this.state.password}
+                      // onChange={this.onChangePassword}
                     />
                   </div>
                   <div className="login-btn">
@@ -310,15 +308,15 @@ export default class Header extends Component {
                             type="text"
                             placeholder="Username"
                             required=""
-                            value={this.state.username}
-                            onChange={this.onChangeusername}
+                            // value={this.state.username}
+                            // onChange={this.onChangeusername}
                           />
                           <input
                             type="password"
                             placeholder="Password"
                             required=""
-                            value={this.state.password}
-                            onChange={this.onChangePassword}
+                            // value={this.state.password}
+                            // onChange={this.onChangePassword}
                           />
                         </div>
                         <div className="login-btn">
