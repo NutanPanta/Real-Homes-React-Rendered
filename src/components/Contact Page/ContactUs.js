@@ -56,6 +56,8 @@ export default class ContactUs extends Component {
                     aria-required="true"
                     autocomplete="off"
                     autofocus=""
+                    // value={name}
+                    // onChange={this.changeHandler}
                   />
                 </p>
                 <p className="Contact-input_area">
@@ -68,6 +70,8 @@ export default class ContactUs extends Component {
                     aria-required="true"
                     autocomplete="off"
                     autofocus=""
+                    // value={email}
+                    // onChange={this.changeHandler}
                   />
                 </p>
                 <p className="Contact-input_area">
@@ -80,6 +84,8 @@ export default class ContactUs extends Component {
                     aria-required="true"
                     autocomplete="off"
                     autofocus=""
+                    // value={phone}
+                    // onChange={this.changeHandler}
                   />
                 </p>
                 <p className="Contact-input_textarea">
@@ -93,6 +99,8 @@ export default class ContactUs extends Component {
                     aria-required="true"
                     autocomplete="off"
                     autofocus=""
+                    // value={message}
+                    // onChange={this.changeHandler}
                   ></textarea>
                 </p>
                 <div className="send_message">
