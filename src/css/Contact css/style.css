@@ -621,7 +621,47 @@ p {
 
 /*Header(navigation) End*/
 
-/* Contact Us Start */
+/* Contact Form Starts */
+/* Simple Hover before after paragraph End */
+.contacts {
+  background-color: #eef3f7;
+}
+.title h1 {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+.right-styled-para {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0 45px 0 0;
+  padding-right: 45px;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(18, 48, 74, 0.7);
+  transition: padding 0.5s;
+}
+.right-styled-para:after {
+  content: "";
+  background-color: rgb(55, 156, 244);
+  position: absolute;
+  width: 25px;
+  height: 6px;
+  border-radius: 4px;
+  top: 12px;
+  left: auto;
+  right: 0 !important;
+  transition: all;
+}
+.title:hover .right-styled-para {
+  padding-right: 50px;
+}
+/* Simple Hover before after paragraph End */
+
 .contact {
   background-color: #fff;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
@@ -668,10 +708,10 @@ p {
   border-color: #2eca6a;
 }
 .send_message button {
-  background: #24f6a4;
-  border: 2px solid #24f6a4;
+  background: #2eca6a;
+  border: 2px solid #2eca6a;
   color: #fff;
-  width: 30%;
+  width: 40%;
   height: auto;
   padding: 15px;
   font-size: 18px;
@@ -681,8 +721,8 @@ p {
 }
 .send_message button:hover {
   background: transparent;
-  border: 2px solid #00baeb;
-  color: #00baeb;
+  border: 2px solid #2eca6a;
+  color: #2eca6a;
   border-radius: 15px;
 }
 .contact-information {
