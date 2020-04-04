@@ -90,16 +90,25 @@ export default class Footer extends Component {
             </div>
             <div className="footer_newsletter">
               <h2>Subscribe to Our Newsletter</h2>
-              <input
-                className="email_address"
-                type="email"
-                name="Email"
-                placeholder="Your email address"
-                required=""
-              />
-              <div className="button_one">
-                <input type="submit" value="Sign Up" />
-              </div>
+              <form
+                name="Newsletter"
+                method="POST"
+                data-netlify="true"
+                type="file"
+                netlify-honeypot="bot-field"
+                netlify
+              >
+                <input
+                  className="email_address"
+                  type="email"
+                  name="Email"
+                  placeholder="Your email address"
+                  required=""
+                />
+                <div className="button_one">
+                  <input type="submit" value="Sign Up" />
+                </div>
+              </form>
             </div>
           </div>
           <div className="footer_bottom">
