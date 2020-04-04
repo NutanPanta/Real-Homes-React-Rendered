@@ -93,17 +93,16 @@ export default class Footer extends Component {
               <form
                 name="Newsletter"
                 method="POST"
+                netlify
                 data-netlify="true"
                 type="file"
                 netlify-honeypot="bot-field"
-                netlify
+                hidden
               >
                 <input
                   className="email_address"
-                  type="hidden"
+                  type="email"
                   name="form-name"
-                  value="contact"
-                  name="Email"
                   placeholder="Your email address"
                   required=""
                 />
