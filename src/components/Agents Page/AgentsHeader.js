@@ -125,7 +125,7 @@ export default class Agents extends Component {
         <div className="container">
           <nav className="nav">
             <span className="open-slide">
-              <Link to="" onClick={this.openSlideMenu}>
+              <Link onClick={this.openSlideMenu}>
                 <i className="fas fa-bars"></i>
               </Link>
             </span>

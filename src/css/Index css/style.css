@@ -519,6 +519,8 @@ p {
 .side_nav-logo {
   background: rgba(0, 0, 0, 0.6);
   padding-left: 30%;
+  height: 90px;
+  padding-top: 3%;
 }
 .side_nav-right {
   display: flex;
@@ -602,8 +604,8 @@ p {
   color: #ff1d3e !important;
 }
 .side_nav-home {
-  margin-top: 20px !important;
-  padding-left: 0px !important;
+  margin-top: 50px !important;
+  padding-left: 20px !important;
 }
 .active-side_nav:before {
   content: "";
