@@ -21,7 +21,7 @@ p {
   margin: 0 auto;
 }
 /*Header(navigation) Start*/
-.scrolltop {
+.nutan {
   background: rgba(0, 0, 0, 0.6) !important;
   transition: 0.9s;
 }

@@ -20,7 +20,7 @@ p {
   max-width: 1170px;
   margin: 0 auto;
 }
-.scrolltop {
+.nutan {
   background: rgba(0, 0, 0, 0.6);
   transition: 0.9s;
 }

@@ -40,7 +40,7 @@ p {
   position: absolute;
 }
 /* scrolltop section starts */
-.scrolltop {
+.nutan {
   background: rgba(0, 0, 0, 0.6);
   transition: 0.9s;
 }
