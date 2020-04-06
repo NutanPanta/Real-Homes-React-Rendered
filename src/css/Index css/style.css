@@ -660,7 +660,7 @@ p {
   text-decoration: none;
 }
 .slide:nth-child(1) {
-  background-image: url(../../img/2.jpg);
+  background-image: url(../../img/1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -686,7 +686,7 @@ p {
 }
 @keyframes animate {
   0% {
-    left: 0;
+    left: 0%;
   }
   20% {
     left: -100%;
@@ -701,7 +701,7 @@ p {
     left: -300%;
   }
   100% {
-    left: -300%;
+    left: -400%;
   }
 }
 .slider-description {

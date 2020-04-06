@@ -125,7 +125,7 @@ export default class Header extends Component {
     return (
       <header className="blogheader">
         <div className="container">
-          <nav className="nav">
+          <nav className="blognav">
             <span className="open-slide">
               <Link onClick={this.openSlideMenu}>
                 <i className="fas fa-bars"></i>

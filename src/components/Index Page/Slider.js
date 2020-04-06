@@ -20,11 +20,11 @@ export default class Slider extends Component {
                       </div>
                       <h1>
                         <span className="color-b">204 </span>
-                        Rino
+                        Mount
                         <br className="desktop_only" />
-                        Venda Road Five
+                        Olive Road Two
                       </h1>
-                      <button onClick="">rent | $ 13.000</button>
+                      <button onClick="/rinoVenda">rent | $ 12.000</button>
                     </div>
                   </div>
                 </div>
@@ -70,11 +70,11 @@ export default class Slider extends Component {
                       </div>
                       <h1>
                         <span className="color-b">204 </span>
-                        Rino
+                        Alira
                         <br className="desktop_only" />
-                        Venda Road Five
+                        Roan Road One
                       </h1>
-                      <button onClick="">rent | $ 13.000</button>
+                      <button onClick="">rent | $ 14.000</button>
                     </div>
                   </div>
                 </div>
@@ -95,9 +95,9 @@ export default class Slider extends Component {
                       </div>
                       <h1>
                         <span className="color-b">204 </span>
-                        Rino
+                        Montal
                         <br className="desktop_only" />
-                        Venda Road Five
+                        South Bela Two
                       </h1>
                       <button onClick="">rent | $ 13.000</button>
                     </div>
