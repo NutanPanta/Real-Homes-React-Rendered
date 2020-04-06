@@ -129,7 +129,7 @@ export default class RentProperties extends Component {
                     <div className="card-image_hover">
                       <Link
                         className="animated fadeInUp"
-                        to="../Property Single/olive-road.html"
+                        to="/MountOlive"
                       >
                         View Property
                       </Link>
