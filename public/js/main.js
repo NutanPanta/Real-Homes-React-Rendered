@@ -1,10 +1,10 @@
 // nav ko scroll ko lago js start
 $(window).scroll(function () {
   if ($(this).scrollTop() > 50) {
-    $("header").addClass("scrolltop");
+    $("nav").addClass("scrolltop");
     $(".side_nav-list").removeClass("scrolltop");
   } else {
-    $("header").removeClass("scrolltop");
+    $("nav").removeClass("scrolltop");
   }
 });
 // nav ko scroll ko lago js end
