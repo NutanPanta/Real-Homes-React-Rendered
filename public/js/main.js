@@ -2,7 +2,7 @@
 $(window).scroll(function () {
   if ($(this).scrollTop() > 50) {
     $("nav").addClass("scrolltop");
-    // $(".side_nav-list").removeClass("scrolltop");
+    $(".side_nav-list").removeClass("scrolltop");
   } else {
     $("nav").removeClass("scrolltop");
   }
