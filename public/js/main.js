@@ -1,10 +1,10 @@
 // nav ko scroll ko lago js start
 $(window).scroll(function () {
   if ($(this).scrollTop() > 50) {
-    $("nav").addClass("scrolltop");
+    $("header").addClass("scrolltop");
     $(".side_nav-list").removeClass("scrolltop");
   } else {
-    $("nav").removeClass("scrolltop");
+    $("header").removeClass("scrolltop");
   }
 });
 // nav ko scroll ko lago js end
@@ -114,11 +114,11 @@ $(document).ready(function () {
   });
 });
 // owl carousel js end
-$("#contact_us").submit(function (e) {
-  e.preventDefault();
+// $("#contact_us").submit(function (e) {
+//   e.preventDefault();
 
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function () {
-    alert("Thank you!");
-  });
-});
+//   var $form = $(this);
+//   $.post($form.attr("action"), $form.serialize()).then(function () {
+//     alert("Thank you!");
+//   });
+// });
