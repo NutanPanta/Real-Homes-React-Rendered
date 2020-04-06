@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 export default class Slider extends Component {
   render() {
     return (
@@ -24,7 +25,9 @@ export default class Slider extends Component {
                         <br className="desktop_only" />
                         Olive Road Two
                       </h1>
-                      <button onClick="/rinoVenda">rent | $ 12.000</button>
+                      <Link to="/mountOlive">
+                        <button>rent | $ 12.000</button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -49,7 +52,9 @@ export default class Slider extends Component {
                         <br className="desktop_only" />
                         Venda Road Five
                       </h1>
-                      <button onClick="">rent | $ 13.000</button>
+                      <Link to="/rinoVenda">
+                        <button>rent | $ 13.000</button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -74,7 +79,9 @@ export default class Slider extends Component {
                         <br className="desktop_only" />
                         Roan Road One
                       </h1>
-                      <button onClick="">rent | $ 14.000</button>
+                      <Link to="/aliraRoan">
+                        <button>rent | $ 14.000</button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -95,11 +102,13 @@ export default class Slider extends Component {
                       </div>
                       <h1>
                         <span className="color-b">204 </span>
-                        Montal
+                        Biscayne
                         <br className="desktop_only" />
-                        South Bela Two
+                        Boulevard
                       </h1>
-                      <button onClick="">rent | $ 13.000</button>
+                      <Link to="/biscayneBoulevard">
+                        <button>rent | $ 14.000</button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -119,12 +128,13 @@ export default class Slider extends Component {
                         </span>
                       </div>
                       <h1>
-                        <span className="color-b">204 </span>
-                        Rino
+                        <span className="color-b">245 </span>
                         <br className="desktop_only" />
-                        Venda Road Five
+                        Nosara
                       </h1>
-                      <button onClick="">rent | $ 13.000</button>
+                      <Link to="/nosara">
+                        <button>rent | $ 3,750</button>
+                      </Link>
                     </div>
                   </div>
                 </div>

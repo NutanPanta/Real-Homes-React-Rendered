@@ -642,11 +642,9 @@ p {
 .slider {
   position: relative;
   width: 500%;
-  animation-name: animate;
-  animation-duration: 13s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
+  -webkit-animation: animate 20s infinite alternate;
+  animation: animate 20s infinite alternate;
+  -moz-animation: animate 20s infinite alternate;
 }
 .slide {
   position: relative;
@@ -675,35 +673,67 @@ p {
   background-position: center center;
 }
 .slide:nth-child(4) {
-  background-image: url(../../img/4.jpg);
+  background-image: url(../../img/property-04.jpg);
   background-repeat: no-repeat;
   background-position: center center;
 }
 .slide:nth-child(5) {
-  background-image: url(../../img/5.jpg);
+  background-image: url(../../img/property-07.jpg);
   background-repeat: no-repeat;
   background-position: center center;
 }
-@keyframes animate {
+@-webkit-keyframes animate {
   0% {
     left: 0%;
   }
-  20% {
-    left: -100%;
-  }
-  30% {
+  25% {
     left: -100%;
   }
   50% {
     left: -200%;
   }
-  80% {
+  75% {
     left: -300%;
   }
   100% {
     left: -400%;
   }
 }
+@-moz-keyframes animate {
+  0% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+@keyframes animate {
+  0% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
 .slider-description {
   padding: 140px 100px;
   width: 100%;
